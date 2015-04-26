@@ -1,7 +1,7 @@
 {
   "name": "language-chapel",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Chapel language support in Atom",
   "repository": "https://github.com/fsouza/language-chapel",
   "license": "Apache Public License 2.0",
   "engines": {
