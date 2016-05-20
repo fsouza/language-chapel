@@ -14,7 +14,7 @@ patterns: [
     include: "#comments"
   }
   {
-    match: "\\b(align|atomic|begin|break|by|class|cobegin|coforall|continue|delete|dmapped|do|else|enum|export|extern|for|forall|if|index|inline|iter|label|lambda|let|local|module|new|noinit|on|otherwise|pragma|proc|record|reduce|return|scan|select|serial|then|union|use|var|when|where|while|with|yield|zip)\\b"
+    match: "\\b(align|as|atomic|begin|break|by|class|cobegin|coforall|continue|delete|dmapped|do|else|enum|except|export|extern|for|forall|if|index|inline|iter|label|lambda|let|local|module|new|noinit|on|only|otherwise|pragma|private|proc|public|record|reduce|require|return|scan|select|serial|then|union|use|var|when|where|while|with|yield|zip)\\b"
     name: "keyword.control.chapel"
   }
   {
@@ -22,7 +22,7 @@ patterns: [
     name: "storage.type.chapel"
   }
   {
-    match: "\\b(config|const|param|sparse|single|type|enum)\\b"
+    match: "\\b(config|const|param|private|public|sparse|single|type|enum)\\b"
     name: "storage.modifier.chapel"
   }
   {
@@ -215,6 +215,6 @@ repository:
   generic_names:
     match: "[A-Za-z_][A-Za-z0-9_]*"
   illegal_names:
-    match: "\\b(align|atomic|begin|break|by|class|cobegin|coforall|continue|delete|dmapped|do|else|enum|export|extern|for|forall|if|index|inline|iter|label|lambda|let|local|module|new|noinit|on|otherwise|pragma|proc|record|reduce|return|scan|select|serial|then|union|use|var|when|where|while|with|yield|zip)\\b"
+    match: "\\b(align|as|atomic|begin|break|by|class|cobegin|coforall|continue|delete|dmapped|do|else|enum|except|export|extern|for|forall|if|index|inline|iter|label|lambda|let|local|module|new|noinit|on|only|otherwise|pragma|private|proc|public|record|reduce|require|return|scan|select|serial|then|union|use|var|when|where|while|with|yield|zip)\\b"
     name: "invalid.illegal.name.chapel"
 scopeName: "source.chapel"
