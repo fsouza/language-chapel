@@ -1,4 +1,5 @@
-## 0.2.0 - Updated to syntax as of 5/20/16
+## 0.2.0 - Updated syntax
+* current as of 5/20/16
 
 ## 0.1.1 - Minor fix in the package description
 
